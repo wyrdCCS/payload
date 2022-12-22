@@ -1,10 +1,12 @@
+<img align="right" width="200" height="200" src="https://github.com/matze-infosec/matze-infosec/blob/main/Assets/BFAE3F0A-D659-45FA-BB14-CB6A7F3A8C4E_1_15.png">
+
 **Title: SwiftOnSysmon**
 
-Author: Matze
+**Author: Matze**
 
-Version: 1.0
+**Version: 1.0**
 
-Incident_Response
+**Category: Incident_Response**
 
 #
 
@@ -31,8 +33,8 @@ I wish you all the best of luck! Happy Hacking!
 
 I would like to thank:
 
-[IamJakoby](https://github.com/I-Am-Jakoby) for helping me troubleshoot and build this payload!
+[IamJakoby](https://github.com/I-Am-Jakoby): for helping me troubleshoot and build this payload!
 
-[Sysinternals](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) for an awsome tool!
+[Sysinternals](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon): for an awsome tool!
 
-[Swift On Security](https://github.com/SwiftOnSecurity) for releasing an amazing rule set for sysmon to work with!
+[Swift On Security](https://github.com/SwiftOnSecurity): for releasing an amazing rule set for sysmon to work with!
