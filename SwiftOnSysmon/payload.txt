@@ -9,24 +9,12 @@ LED SETUP
 GET SWITCH_POSITION
 ATTACKMODE HID STORAGE
 
-LED STAGE1
-#Stage 1 (setup)
 QUACK DELAY 3000
 QUACK GUI r
-QUACK DELAY 500
+QUACK DELAY 100
 QUACK STRING powershell saps PowerShell -verb runas
 QUACK ENTER
-# This is the delay that will controle how much time you have on the UAC. Feel free to modify this if you need more time. 
-QUACK DELAY 5000
-
-LED C FAST
-#Stage 2 (file copy and install)
-QUACK STRING New-Item C:\\Sysmon -itemType Directory
-QUACK ENTER
-QUACK DELAY 5000
-QUACK STRING "Copy-Item((gwmi win32_volume -f 'label=''BashBunny''').Name+'\payloads\\$SWITCH_POSITION\Sysmon') -Destination 'C:\Sysmon' -Recurse"
-QUACK ENTER
-QUACK DELAY 5000
+QUACK DELAY 5000 #This timer sets how long you have with the UAC. You will need to be an admin to run this script.
 QUACK STRING "iex((gwmi win32_volume -f 'label=''BashBunny''').Name+'\payloads\\$SWITCH_POSITION\Sysmon.ps1')"
 QUACK ENTER
-LED FINISH
+
