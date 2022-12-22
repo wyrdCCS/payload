@@ -22,8 +22,6 @@ What is this payload?
 This payload lets you automate the instalation of Sysmon with 2 options: default and rule based. I have included a commonly used rule set from [Swift On Security](https://github.com/SwiftOnSecurity/sysmon-config). This payload
 uses a powershell script to allow for a quick and clean instalation. 
 
-**You will need to have admin permishions for this to run.**
-
 #
 How to run this!
 
@@ -31,6 +29,15 @@ All files needed are stored in the Sysmon folder. I have named the custom rules 
 copy all files to an open switch folder and run it!
 
 I wish you all the best of luck! Happy Hacking!
+
+Notes:
+
+**You will need to have admin permishions for this to run.**
+
+**Sysmon does get updates from time to time. I recomend checking to see if a newer version has been sent out between uses**
+
+**Sysmon files download date: 11/25/2022:** [Sysinternals](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon)
+
 #
 
 I would like to thank:
