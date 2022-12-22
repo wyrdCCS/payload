@@ -15,7 +15,7 @@ What is Sysmon?
 Sysmon is a Windows system service and device driver that, once installed on a system, remains across system reboots to monitor and log system activity to the Windows event log. It provides detailed information about process 
 creations, network connections, and changes to file creation time. By collecting the events it generates using Windows Event Collection or SIEM agents you can identify malicious or anomalous activity and understand how intruders 
 and malware operate on your network. Sysmon also lets you build custom filters to deside what should be logged and how much should be collected when an event is triggered. The custom filters are written in xml. 
-You can custom make your own from scratch or modify existing filters to meat your exact need.
+You can custom make your own from scratch or modify existing filters to meet your exact need.
 #
 What is this payload?
 
